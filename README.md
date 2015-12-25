@@ -1,5 +1,5 @@
 # tpapi_wordpress
-Wordpress API based on ThinkPHP 5
+A Wordpress API System based on ThinkPHP 5
 
 ## 部署说明
 1. 安装好 Wordpress  
