@@ -19,14 +19,14 @@ Wordpress API based on ThinkPHP 5
 4. 根据本地部署的修改 /tpapi_wordpress/app/database.php 
 
 ## API 文档 (草稿)
-- getTable
+- getTable  
 URL: index.php/getTable/$tableName  
 返回某个 Table 的内容，比如 index.php/getTable/post 就获得文章内容，用户则是 index.php/getTable/users
 
-- getDetail
+- getDetail  
 URL: index.php/getDetail/?tableName=$tableName&id=$id 
 返回某个 row 的具体信息，比如 index.php/getDetail/?tableName=post&id=1 则返回文章 1 的内容 
 
-- getPostByCate
+- getPostByCate  
 URL: index.php/getPostByCate/cateName 
 返回某个文章分类的内容
