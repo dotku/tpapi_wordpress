@@ -13,8 +13,9 @@
         <h1>Blog</h1>
         <div ng-repeat="x in blogs" compileHtml="x" class="panel panel-default">
             <div class="panel-body">
-            <h2>{{ x.post_title }}</h2>
-            <div ng-bind-html="x.post_content | trustHtml"></div>
+                <h2>{{ x.post_title }}</h2>
+                <div ng-bind-html="x.post_content | trustHtml"></div>
+                <div>Cate: {{ x.post_cate }}</div>
             </div>
         </div>
         </div>

@@ -29,4 +29,4 @@ URL: `index.php/getDetail/?tableName=$tableName&id=$id`
 
 - getPostByCate  
 URL: `index.php/getPostByCate/cateName`  
-返回某个文章分类的内容
+返回某个文章分类的文章列表
