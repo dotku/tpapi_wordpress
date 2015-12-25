@@ -26,12 +26,6 @@
             $http.get("./getBlog")
             .then(function(response) {
                 $scope.blogs = response.data.data;
-                /*
-                for (i = 0; i < $scope.blogs.length; i++) {
-                    content = sanitize($scope.blogs[i].post_content);
-                    $scope.blogs[i].post_content = content;
-                }*/
-                console.log($scope.blogs);
             });
         })
         .filter('trustHtml', function ($sce) {
