@@ -25,7 +25,7 @@ URL: `index.php/getTable/$tableName`
 
 - getDetail  
 URL: `index.php/getDetail/?tableName=$tableName&id=$id`  
-返回某个 row 的具体信息，比如 index.php/getDetail/?tableName=post&id=1 则返回文章 1 的内容 
+返回某个 row 的具体信息，比如 index.php/getDetail/?tableName=post&id=1 则返回文章(id=1)的内容 
 
 - getPostByCate  
 URL: `index.php/getPostByCate/cateName`  
